@@ -1,0 +1,7 @@
+(library
+ (name oCamlRes)
+ (wrapped false)
+ (public_name ocplib-ocamlres)
+ (libraries astring pprint unix dynlink str)
+ (flags
+  (:standard -warn-error -A)))

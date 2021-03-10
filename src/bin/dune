@@ -1,0 +1,6 @@
+(executable
+ (name oCamlResMain)
+ (libraries ocplib-ocamlres)
+ (public_name ocp-ocamlres)
+ (flags
+  (:standard -warn-error -A)))
